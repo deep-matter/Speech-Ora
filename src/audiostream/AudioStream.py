@@ -5,8 +5,8 @@ from typing import Tuple
 import numpy as np
 import sounddevice as sd
 from transformers import HfArgumentParser
-from .Argument import ListenAndPlayArguments
-import panads as pd
+from Argument import ListenAndPlayArguments
+
 
 class AudioStreamer:
     """Handles sending and receiving audio data over a network."""
